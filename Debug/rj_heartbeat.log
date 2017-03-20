@@ -1,0 +1,39 @@
+﻿Build started 16-4-28 下午1:15:54.
+     1>Project "C:\Users\baiyongrui\Desktop\rj_heartbeat\rj_heartbeat\rj_heartbeat.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt mentohust.c
+         mentohust.c
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\myconfig.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mystate.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\myfunc.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\types.h(7): warning C4142: benign redefinition of type
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\types.h(8): warning C4142: benign redefinition of type
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\myini.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(80): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(80): warning C4024: 'CreateProcessW' : different types for formal and actual parameter 6
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(83): warning C4013: 'findRuijieSupplicant' undefined; assuming extern returning int
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(119): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(119): warning C4024: 'CreateToolhelp32Snapshot' : different types for formal and actual parameter 2
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(148): warning C4142: benign redefinition of type
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(158): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(158): warning C4024: 'CreateToolhelp32Snapshot' : different types for formal and actual parameter 2
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(178): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(1025) : see declaration of 'wcscpy'
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(187): warning C4047: 'function' : 'DWORD' differs in levels of indirection from 'void *'
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(187): warning C4024: 'CreateToolhelp32Snapshot' : different types for formal and actual parameter 2
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(246): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(260): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\baiyongrui\desktop\rj_heartbeat\rj_heartbeat\mentohust.c(262): warning C4018: '>' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\baiyongrui\Desktop\rj_heartbeat\Debug\rj_heartbeat.exe" /INCREMENTAL /NOLOGO Shlwapi.lib ws2_32.lib Winmm.lib wpcap.lib iphlpapi.lib User32.lib Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\baiyongrui\Desktop\rj_heartbeat\Debug\rj_heartbeat.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\baiyongrui\Desktop\rj_heartbeat\Debug\rj_heartbeat.lib" /MACHINE:X86 Debug\md5.obj
+         Debug\mentohust.obj
+         Debug\myconfig.obj
+         Debug\myfunc.obj
+         Debug\myini.obj
+         Debug\mystate.obj
+         rj_heartbeat.vcxproj -> C:\Users\baiyongrui\Desktop\rj_heartbeat\Debug\rj_heartbeat.exe
+     1>Done Building Project "C:\Users\baiyongrui\Desktop\rj_heartbeat\rj_heartbeat\rj_heartbeat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71
